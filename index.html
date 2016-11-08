@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nico Moving</title>
+  <link rel= "stylesheet" type= "text/css" href= "styles/styles2.css"/>
+  <link rel= "stylesheet" type= "text/css" href= "styles/navstyles.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link href="styles/jquery.bxslider.css" rel="stylesheet"/>
+  <!-- jQuery library (served from Google) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+  <script src="js/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.bxslider').bxSlider();
+    });
+  </script>
+
+</head>
+<body>
+
+  <div class= "header">
+    <div id= "user-icons-top">
+      <a href="http://www.facebook.html"><img src="images/facebook.png" width="50" height="50"></a>
+      <a href="http://www.twitter.html"><img src="images/twitter.png" width="50" height="50"></a>
+    </div>
+    <img src="images/web160logotransparent.png" id= "nicologo">
+  </div>
+  <!--Top Nav-->
+  <div class= "top_nav">
+    <div id= "header-links">
+      <a href= "browseall.html" id= "about-link">ABOUT</a>
+      <a href= "skills.html" id= "skills-link">SKILLS/SERVICES</a>
+      <a href= "blog.html" id= "blog-link">BLOG</a>
+      <a href= "contact.html" id= "contact-link">CONTACT</a>
+    </div>
+  </div>
+
+  <div class= "main_content_index">
+  <ul class="bxslider">
+
+  </ul>
+  <p id= "indexcontent">
+  </p>
+  </div>
+  <div class= "footer">
+      <img id= "facebook-icon-bottom" src= "images/facebook.png" width= "50" height= "50">
+      <img id= "twitter-icon-bottom" src= "images/twitter.png" width= "50" height= "50">
+    <div id= "footerlink1">
+      <h5>ABOUT</h5><BR>
+      <div id= "footerlinkstyle">
+        <a href= "who.html">ABOUT NICO</a><BR>
+        <a href= "location.html">RESUME/CV</a><BR>
+      </div>
+    </div>
+    <div id= "footerlink2">
+      <h5>SKILLS & SERVICES</h5><BR>
+      <a href= "browseall.html">TRADITIONAL ART</a><BR>
+      <a href= "oliveoil.html">DIGITAL ART</a><BR>
+      <a href= "vinegar.html">WEB DEVELOPMENT & DESIGN</a><BR>
+    </div>
+    <div id= "footerlink3">
+      <h5>CONTACT</h5><BR>
+      <a href id= "small-link" src= "who.html">CONTACT FORM</a><BR>
+    </div>
+  </div>
+</body>
+</html>
