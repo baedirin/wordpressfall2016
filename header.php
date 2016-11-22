@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head <?php language_attributes(); ?>>
-  <title><?php blog_info('Nico Moving'); ?> <?php wp_title(); ?></title>
+  <title><?php bloginfo('Nico Moving'); ?> <?php wp_title(); ?></title>
   <link rel= "stylesheet" type= "text/css" href= "styles/styles2.css"/>
   <link rel= "stylesheet" type= "text/css" href= "styles/navstyles.css"/>
   <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
