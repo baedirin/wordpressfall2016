@@ -1,11 +1,4 @@
 <?php get_header();?>
-<div class= "main_content_index">
-  <ul class="bxslider">
-  </ul>
-  <p id= "indexcontent">
-  </p>
-  </div>
-<div id="content">
 <!--Begin the Loop-->
   <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
     <div class="entry">
@@ -23,6 +16,4 @@
         <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
         <?php endif; ?>
 <!--end loop-->
-
-</div>
 <?php get_footer(); ?>
