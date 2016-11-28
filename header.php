@@ -2,7 +2,7 @@
 <!--Begin Head Tag-->
 <head>
 <!--Title Tag-->
-<title><?php get_my_title_tag(); ?></title>
+<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
 <!--End Title Tag-->
 
 <!--Meta Tags-->
