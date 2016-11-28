@@ -53,7 +53,7 @@ a:active {
   margin-right: auto;
 }
 
-#content{
+.main{
   background-color: #003b2a;
   width: 940px;
   height: 800px;
@@ -63,7 +63,7 @@ a:active {
   border-bottom: 15px solid #49273f;
 }
 
-#footer {
+.footer {
   background-color: #003b2a;
   height: 250px;
   color: #e5e1c4;

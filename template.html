@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Nico Moving!</title>
+  <link rel= "stylesheet" type= "text/css" href= "style.css"/>
+  <link rel= "stylesheet" type= "text/css" href= "navstyles.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  <link href="jquery.bxslider.css" rel="stylesheet"/>
+  <!-- jQuery library (served from Google) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+  <script src="jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.bxslider').bxSlider();
+    });
+  </script>
+
+</head>
+<body>
+  <div id= "header">
+    <a href= "index.html"><img src= "logo.png" id= "header-logo"></a>
+  </div>
+  <!--Top Nav-->
+  <div id= "top_nav">
+    <div id= "header-links">
+      <a href= "about.html" id= "about-link">ABOUT</a>
+      <a href= "skills.html" id= "skills-link">SKILLS & SERVICES</a>
+      <a href= "blog.html" id= "blog-link">BLOG</a>
+      <a href= "contact.html" id= "contact-link">CONTACT</a>
+    </div>
+  </div>
+
+  <div class= "main">
+  <ul class="bxslider">
+    <li><img src=""/></li>
+    <li><img src=""/></li>
+    <li><img src=""/></li>
+  </ul>
+  <p id= "indexcontent">
+    Welcome to Nico Moving!
+  </p>
+  </div>
+  <div class= "footer">
+      <img id= "facebook-icon-bottom" src= "facebook.png" width= "50" height= "50">
+      <img id= "twitter-icon-bottom" src= "twitter.png" width= "50" height= "50">
+    <div id= "footerlink1">
+      <h5>ABOUT</h5><BR>
+      <div id= "footerlinkstyle">
+        <a href= "about.html">ABOUT NICO</a><BR>
+        <a href= "resume.html">RESUME/CV</a><BR>
+      </div>
+    </div>
+    <div id= "footerlink2">
+      <h5>SKILLS & SERVICES</h5><BR>
+      <a href= "traditional.html">TRADITIONAL ART</a><BR>
+      <a href= "digital.html">DIGITAL ART</a><BR>
+      <a href= "webdevdes.html">WEB DEVELOPMENT & DESIGN</a><BR>
+    </div>
+    <div id= "footerlink3">
+      <h5>CONTACT</h5><BR>
+      <a href id= "small-link" src= "contact.html">CONTACT FORM</a><BR>
+    </div>
+  </div>
+
+</body>
+</html>
