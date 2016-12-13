@@ -35,16 +35,14 @@
 <!--Begin Header Tag-->
   <header>
     <div id= "header">
-      <a href= "<?php echo get_option('home') ?>">"<img src= "<?php bloginfo('template_directory'); ?>/images/logo.png"></a>
+      <a href= "<?php echo get_option('home') ?>"><img src= "<?php bloginfo('template_directory'); ?>/images/logo.png"></a>
     </div>
   </header>
 <!--End Header Tag-->
   <nav id= "top-nav">
     <?php wp_nav_menu($mainMenu); ?>
   </nav>
-<!--Begin Top Nav-->
 
-<!--End Top Nav-->
 
 <!--Begin Main Section-->
   <div id= "middle">

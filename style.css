@@ -38,6 +38,8 @@ a:active {
   width: 940px;
   height: 250px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header-logo {
@@ -51,6 +53,7 @@ a:active {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  float: right;
 }
 
 #content{
@@ -63,10 +66,25 @@ a:active {
   border-bottom: 15px solid #49273f;
 }
 
+#middle {
+  background-color: #003b2a;
+  width: 940px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  border-bottom: 15px solid #49273f;
+}
+
 #footer {
   background-color: #003b2a;
+  width: 940px;
   height: 250px;
   color: #e5e1c4;
+  background-color: #003b2a;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
 }
 
 #indexcontent {
@@ -142,6 +160,11 @@ a:active {
   float: left;
 }
 
+#footer-copy {
+  float: right;
+  margin-top: 30px;
+  margin-right: 40px;
+}
 /* Dropdown Menu CSS */
 
 /* Dropdown Button */
